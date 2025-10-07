@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-09-23T15:27:07.301195",
+  "detection_type": "bottle_detection",
+  "status": "PASS",
+  "reason": "Bottle detected correctly (area: 9716px, ratio: 2.56)",
+  "bottles_count": 1,
+  "processing_time_ms": 2.8007030487060547,
+  "bottles": [
+    {
+      "area": 9716.5,
+      "center": [
+        449,
+        296
+      ],
+      "bbox": [
+        412,
+        200,
+        75,
+        192
+      ],
+      "aspect_ratio": 2.56,
+      "circularity": 0.2822499237668236,
+      "solidity": 0.8081929715117488
+    }
+  ]
+}

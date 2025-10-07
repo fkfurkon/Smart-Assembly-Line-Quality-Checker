@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-09-23T15:39:08.902521",
+  "detection_type": "bottle_detection",
+  "status": "FAIL",
+  "reason": "\u0e44\u0e21\u0e48\u0e1e\u0e1a\u0e02\u0e27\u0e14\u0e19\u0e49\u0e33 - No water bottles detected",
+  "bottles_count": 0,
+  "processing_time_ms": 6.873130798339844,
+  "bottles": []
+}

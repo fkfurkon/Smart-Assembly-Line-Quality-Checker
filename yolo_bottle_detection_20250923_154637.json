@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-09-23T15:46:37.313543",
+  "detection_type": "yolo_bottle_detection",
+  "model_used": "yolov8s.pt",
+  "status": "PASS",
+  "reason": "YOLO \u0e15\u0e23\u0e27\u0e08\u0e1e\u0e1a bottle (conf: 0.74, area: 21840px)",
+  "bottles_count": 3,
+  "processing_time_ms": 211.777925491333,
+  "confidence_threshold": 0.5,
+  "bottles": [
+    {
+      "class_id": 39,
+      "class_name": "bottle",
+      "confidence": 0.7446235418319702,
+      "center": [
+        324,
+        277
+      ],
+      "bbox": [
+        284,
+        140,
+        80,
+        273
+      ],
+      "area": 21840,
+      "aspect_ratio": 3.4125,
+      "coordinates": [
+        284.7174072265625,
+        140.4947509765625,
+        365.26806640625,
+        414.0037841796875
+      ]
+    },
+    {
+      "class_id": 41,
+      "class_name": "cup",
+      "confidence": 0.5785619020462036,
+      "center": [
+        177,
+        334
+      ],
+      "bbox": [
+        162,
+        309,
+        31,
+        50
+      ],
+      "area": 1550,
+      "aspect_ratio": 1.6129032258064515,
+      "coordinates": [
+        162.09774780273438,
+        309.1026611328125,
+        193.40615844726562,
+        359.93829345703125
+      ]
+    },
+    {
+      "class_id": 39,
+      "class_name": "bottle",
+      "confidence": 0.5240994691848755,
+      "center": [
+        103,
+        345
+      ],
+      "bbox": [
+        83,
+        304,
+        39,
+        80
+      ],
+      "area": 3120,
+      "aspect_ratio": 2.051282051282051,
+      "coordinates": [
+        83.87052917480469,
+        304.64990234375,
+        123.16529846191406,
+        385.3505859375
+      ]
+    }
+  ]
+}

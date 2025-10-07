@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-09-23T16:00:13.993373",
+  "detection_type": "yolo_bottle_detection",
+  "model_used": "yolov8n.pt",
+  "status": "PASS",
+  "reason": "YOLO \u0e15\u0e23\u0e27\u0e08\u0e1e\u0e1a bottle (conf: 0.64, area: 20501px)",
+  "bottles_count": 1,
+  "processing_time_ms": 52.01292037963867,
+  "confidence_threshold": 0.5,
+  "bottles": [
+    {
+      "class_id": 39,
+      "class_name": "bottle",
+      "confidence": 0.6441053748130798,
+      "center": [
+        331,
+        319
+      ],
+      "bbox": [
+        290,
+        195,
+        83,
+        247
+      ],
+      "area": 20501,
+      "aspect_ratio": 2.9759036144578315,
+      "coordinates": [
+        290.1247253417969,
+        195.2843017578125,
+        373.6321105957031,
+        442.7618408203125
+      ]
+    }
+  ]
+}

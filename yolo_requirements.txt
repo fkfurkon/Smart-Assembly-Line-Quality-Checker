@@ -1,0 +1,25 @@
+# YOLO Bottle Detection Requirements
+# Install with: pip install -r yolo_requirements.txt
+
+# Core YOLO and Deep Learning
+ultralytics>=8.0.0
+torch>=1.13.0
+torchvision>=0.14.0
+
+# Computer Vision
+opencv-python>=4.8.0
+pillow>=9.3.0
+
+# Scientific Computing
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Utilities
+pyyaml>=6.0
+requests>=2.28.0
+tqdm>=4.64.0
+
+# Optional: For enhanced performance
+# onnx>=1.12.0
+# onnxruntime>=1.12.0
+# tensorrt  # For NVIDIA GPUs

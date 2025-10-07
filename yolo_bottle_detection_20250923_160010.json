@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-09-23T16:00:10.725342",
+  "detection_type": "yolo_bottle_detection",
+  "model_used": "yolov8n.pt",
+  "status": "FAIL",
+  "reason": "\u0e1e\u0e1a\u0e02\u0e27\u0e14\u0e2b\u0e25\u0e32\u0e22\u0e43\u0e1a - Multiple bottles (2 detected)",
+  "bottles_count": 2,
+  "processing_time_ms": 51.9561767578125,
+  "confidence_threshold": 0.5,
+  "bottles": [
+    {
+      "class_id": 39,
+      "class_name": "bottle",
+      "confidence": 0.7258297801017761,
+      "center": [
+        310,
+        316
+      ],
+      "bbox": [
+        271,
+        192,
+        78,
+        247
+      ],
+      "area": 19266,
+      "aspect_ratio": 3.1666666666666665,
+      "coordinates": [
+        271.2281494140625,
+        192.8944854736328,
+        349.3643798828125,
+        440.81964111328125
+      ]
+    },
+    {
+      "class_id": 39,
+      "class_name": "bottle",
+      "confidence": 0.6584057211875916,
+      "center": [
+        155,
+        340
+      ],
+      "bbox": [
+        139,
+        295,
+        31,
+        89
+      ],
+      "area": 2759,
+      "aspect_ratio": 2.870967741935484,
+      "coordinates": [
+        139.5913543701172,
+        295.9071044921875,
+        170.6029510498047,
+        385.0709228515625
+      ]
+    }
+  ]
+}

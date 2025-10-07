@@ -1,0 +1,59 @@
+VISION SYSTEM INSPECTION REPORT
+========================================
+Generated: 2025-09-23 15:13:58
+
+SUMMARY:
+  Total Inspections: 6
+  Passed: 2
+  Failed: 4
+  Pass Rate: 33.3%
+
+DETAILED RESULTS:
+----------------------------------------
+ 1. Good Part - Centered
+    Status: PASS
+    Objects: 1
+    Area: 20040.0
+    Position: (320, 240)
+    Time: 3.0ms
+
+ 2. Bad Part - Off Center
+    Status: FAIL
+    Objects: 1
+    Area: 15342.0
+    Position: (400, 150)
+    Time: 0.3ms
+
+ 3. Multiple Objects
+    Status: FAIL
+    Objects: 2
+    Area: 0.0
+    Position: (0, 0)
+    Time: 0.4ms
+
+ 4. No Objects
+    Status: FAIL
+    Objects: 0
+    Area: 0.0
+    Position: (0, 0)
+    Time: 0.5ms
+
+ 5. Object Too Small
+    Status: FAIL
+    Objects: 1
+    Area: 1246.0
+    Position: (320, 240)
+    Time: 0.3ms
+
+ 6. Perfect Part with Noise
+    Status: PASS
+    Objects: 1
+    Area: 17626.0
+    Position: (320, 240)
+    Time: 0.2ms
+
+PERFORMANCE METRICS:
+  Average processing time: 0.8ms
+  Min processing time: 0.2ms
+  Max processing time: 3.0ms
+  Estimated throughput: 1236.4 parts/second

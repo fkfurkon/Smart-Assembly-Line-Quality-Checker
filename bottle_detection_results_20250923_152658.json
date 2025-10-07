@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-09-23T15:26:58.934740",
+  "detection_type": "bottle_detection",
+  "status": "FAIL",
+  "reason": "Bottle off-center (distance: 159.0px)",
+  "bottles_count": 1,
+  "processing_time_ms": 5.025625228881836,
+  "bottles": [
+    {
+      "area": 9620.0,
+      "center": [
+        468,
+        298
+      ],
+      "bbox": [
+        413,
+        202,
+        111,
+        193
+      ],
+      "aspect_ratio": 1.7387387387387387,
+      "circularity": 0.20686445199789644,
+      "solidity": 0.6053741111320874
+    }
+  ]
+}
