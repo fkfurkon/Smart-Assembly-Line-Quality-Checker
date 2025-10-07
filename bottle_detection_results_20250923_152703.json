@@ -1,9 +1,0 @@
-{
-  "timestamp": "2025-09-23T15:27:03.432697",
-  "detection_type": "bottle_detection",
-  "status": "FAIL",
-  "reason": "No bottles detected",
-  "bottles_count": 0,
-  "processing_time_ms": 2.5551319122314453,
-  "bottles": []
-}

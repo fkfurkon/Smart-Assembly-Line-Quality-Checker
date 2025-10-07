@@ -1,0 +1,62 @@
+# Project Dependencies
+
+# Core system packages (install via apt)
+# sudo apt update
+# sudo apt install -y python3-pip python3-venv
+# sudo apt install -y python3-opencv
+# sudo apt install -y libatlas-base-dev
+# sudo apt install -y python3-picamera2
+
+# Python packages for vision system
+opencv-python>=4.5.0
+numpy>=1.21.0
+scipy>=1.7.0
+matplotlib>=3.3.0
+scikit-learn>=0.24.0
+pandas>=1.3.0
+
+# Raspberry Pi specific
+gpiozero>=1.6.0
+picamera2>=0.3.0
+
+# Machine Learning
+tensorflow>=2.8.0
+# OR for lighter installation:
+# tflite-runtime>=2.8.0
+
+# Computer Vision
+pillow>=8.0.0
+scikit-image>=0.18.0
+
+# Communication and networking
+pymodbus>=3.0.0
+requests>=2.25.0
+
+# Data handling and storage
+sqlite3  # Built into Python
+h5py>=3.1.0
+
+# Utility packages
+python-dateutil>=2.8.0
+configparser  # Built into Python
+logging  # Built into Python
+threading  # Built into Python
+queue  # Built into Python
+time  # Built into Python
+json  # Built into Python
+dataclasses  # Built into Python (3.7+)
+typing  # Built into Python (3.5+)
+
+# Development and testing
+pytest>=6.0.0
+pytest-cov>=2.10.0
+
+# Optional: Web interface
+flask>=2.0.0
+flask-socketio>=5.0.0
+
+# Optional: Advanced AI features
+torch>=1.9.0
+torchvision>=0.10.0
+onnx>=1.9.0
+onnxruntime>=1.8.0

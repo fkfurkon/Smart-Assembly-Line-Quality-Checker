@@ -1,0 +1,224 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# YOLO Models
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+yolov*.pt
+yolov*.yaml
+yolov*.onnx
+
+# Detection Results
+*_results*.json
+*_detection*.json
+bottle_detection_results_*.json
+live_detection_results_*.json
+yolo_bottle_detection_*.json
+yolo_water_bottle_*.json
+comparison_results_*.json
+inspection_results.json
+
+# Saved Images/Videos
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.mkv
+*_frame_*.jpg
+*_frame_*.png
+yolo_frame_*.jpg
+water_bottle_frame_*.jpg
+
+# Logs
+*.log
+*.txt
+inspection_report.txt
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Data files (if large)
+data/
+datasets/
+*.csv
+*.pkl
+*.pickle
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Package files
+*.deb
+*.rpm
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Node.js (if any web interface)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Camera test outputs
+camera_test_*.jpg
+camera_test_*.png
+
+# Ultralytics YOLO cache
+runs/
+wandb/
+ultralytics_cache/
+
+# PyTorch hub cache
+.cache/
+torch/hub/
+
+# Exception: Keep example images in docs
+!docs/images/**
+!examples/images/**
+!README_images/**
+
+# Exception: Keep requirements files
+!requirements.txt
+!yolo_requirements.txt
+
+# Exception: Keep example result files (small, for documentation)
+!examples/basic_demos/example_result.json
